@@ -5,11 +5,13 @@ type Color = {
   value: string;
   tw: string;
 };
-
+//bg-blue-800 border-blue-800
+//bg-rose-800 border-rose-800
+//bg-zinc-950 border-zinc-950
 export const COLORS: readonly Color[] = [
   { label: "Black", value: "black", tw: "zinc-950" },
-  { label: "Blue", value: "blue", tw: "blue-600" },
-  { label: "Rose", value: "rose", tw: "rose-600" },
+  { label: "Blue", value: "blue", tw: "blue-800" },
+  { label: "Rose", value: "rose", tw: "rose-800" },
 ] as const;
 
 type ModelOption = {
